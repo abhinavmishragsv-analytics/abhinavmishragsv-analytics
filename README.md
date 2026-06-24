@@ -17,7 +17,7 @@
 
 - 🎓 **B.Tech in AI & Data Science** — Gati Shakti Vishwavidyalaya (GSV), '28
 - 🚂 **Interned @ DFCCIL** — Built an AI-powered Decision Support System for evaluating Goods Cargo Terminals across WDFC & EDFC
-- 🛤️ **Interned @ DRM Office, Indian Railways (Delhi Division)** — Operations Planning & Business Development
+- 🛤️ **Interned @ DRM Office, Indian Railways (Delhi Division)** — Signalling & Telecommunications
 - 📊 **Top 10%** — Consulting & Analytics Bootcamp, IIT Guwahati
 - 🔧 **Coordinator** — TechnoCrats GSV (Tech Club)
 
