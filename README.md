@@ -10,10 +10,9 @@
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
 ║  > INITIALIZING PROFILE . . .                                        ║
-║  > AI & Data Science @ Gati Shakti University  [2025 → 2028]        ║
+║  > AI & Data Science @ Gati Shakti University  [2024 → 2028]         ║
 ║  > Former: DFCCIL · Indian Railways (DRM Office, Delhi)              ║
-║  > Achievement: Top 10% · IIT Guwahati Consulting Bootcamp           ║
-║  > Status: BUILDING_QUIETLY ██████████████████████ 100%              ║
+║  > Achievement: Top 10% · IIT Guwahati Consulting Bootcamp           ║          ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -39,9 +38,9 @@
 
 Not toy projects. I spent my internship at **DFCCIL** building a full AI-powered decision support system deployed to production, evaluating Goods Cargo Terminals across India's dedicated freight corridors.
 
-Before that, **Indian Railways** (DRM Office, Delhi Division) — where I saw first-hand what data chaos looks like at national scale and learned why good systems matter.
+Before that, **Indian Railways** (DRM Office, Delhi Division) — where I saw first-hand what chaos looks like at national scale and learned why good systems matter.
 
-Currently at **Gati Shakti University**, sharpening the foundations: ML, analytics pipelines, scalable system design.
+Currently at **Gati Shakti Vishwavidyalaya**, sharpening the foundations: ML, analytics pipelines, scalable system design.
 
 > *"The goal isn't a model. The goal is a decision."*
 
@@ -54,11 +53,11 @@ class Abhinav:
     role       = "Data Science + Analytics"
     
     internships = [
-        "DFCCIL — Ops Planning & Biz Dev",
+        "DFCCIL — Ops & Biz Dev",
         "Indian Railways — DRM Office, Delhi"
     ]
     
-    achievement = "Top 10% · IIT-G Consulting Boot"
+    achievement = "Top 10% · IIT-G Consulting Bootcamp"
     club        = "TechnoCrats GSV — Coordinator"
     
     currently   = ["ML Systems", "System Design",
