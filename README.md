@@ -12,7 +12,7 @@
 ║  > INITIALIZING PROFILE . . .                                        ║
 ║  > AI & Data Science @ Gati Shakti University  [2024 → 2028]         ║
 ║  > Former: DFCCIL · Indian Railways (DRM Office, Delhi)              ║
-║  > Achievement: Top 10% · IIT Guwahati Consulting Bootcamp           ║          ║
+║  > Achievement: Top 10% · IIT Guwahati Consulting Bootcamp           ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
 
