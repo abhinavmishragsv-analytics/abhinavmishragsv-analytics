@@ -162,12 +162,87 @@ Time-series forecasting on real retail data.
 
 <div align="center">
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=abhinavmishragsv-analytics&show_icons=true&theme=chartreuse-dark&title_color=39FF14&icon_color=FFFF33&text_color=FFFFFF&bg_color=0D0D0D&hide_border=true&border_radius=10&include_all_commits=true&count_private=true"/>
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhinavmishragsv-analytics&layout=compact&theme=chartreuse-dark&title_color=FFFF33&text_color=39FF14&bg_color=0D0D0D&hide_border=true&border_radius=10&langs_count=6"/>
+<!--  CUSTOM TERMINAL METRICS CARD  -->
+<svg width="860" height="200" viewBox="0 0 860 200" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#39FF14;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFFF33;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=abhinavmishragsv-analytics&theme=chartreuse-dark&ring=39FF14&fire=FFFF33&currStreakLabel=39FF14&background=0D0D0D&hide_border=true&border_radius=10"/>
+  <!-- background -->
+  <rect width="860" height="200" rx="12" fill="#0D0D0D" stroke="#39FF14" stroke-width="1.2"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=abhinavmishragsv-analytics&bg_color=0D0D0D&color=39FF14&line=FFFF33&point=39FF14&area=true&area_color=39FF14&hide_border=true&radius=8"/>
+  <!-- top bar -->
+  <rect width="860" height="36" rx="12" fill="#111" stroke="none"/>
+  <rect y="24" width="860" height="12" fill="#111" stroke="none"/>
+  <circle cx="22" cy="18" r="6" fill="#FF5F57"/>
+  <circle cx="42" cy="18" r="6" fill="#FFBD2E"/>
+  <circle cx="62" cy="18" r="6" fill="#28C840"/>
+  <text x="430" y="23" font-family="monospace" font-size="12" fill="#39FF14" text-anchor="middle" filter="url(#glow)">ABHINAV@GSV ~ ./stats --live</text>
+
+  <!-- divider -->
+  <line x1="20" y1="42" x2="840" y2="42" stroke="#39FF14" stroke-width="0.4" stroke-dasharray="4,4"/>
+
+  <!-- COLUMN 1 — commit metrics -->
+  <text x="40" y="68" font-family="monospace" font-size="11" fill="#FFFF33">ACTIVITY</text>
+
+  <text x="40" y="92" font-family="monospace" font-size="11" fill="#888">total commits</text>
+  <text x="200" y="92" font-family="monospace" font-size="13" fill="#39FF14" font-weight="bold" filter="url(#glow)">53</text>
+
+  <text x="40" y="114" font-family="monospace" font-size="11" fill="#888">total contributions</text>
+  <text x="200" y="114" font-family="monospace" font-size="13" fill="#39FF14" font-weight="bold" filter="url(#glow)">118</text>
+
+  <text x="40" y="136" font-family="monospace" font-size="11" fill="#888">pull requests</text>
+  <text x="200" y="136" font-family="monospace" font-size="13" fill="#FFFF33" font-weight="bold">2</text>
+
+  <text x="40" y="158" font-family="monospace" font-size="11" fill="#888">longest streak</text>
+  <text x="200" y="158" font-family="monospace" font-size="13" fill="#FFFF33" font-weight="bold">3 days</text>
+
+  <text x="40" y="180" font-family="monospace" font-size="11" fill="#888">active since</text>
+  <text x="200" y="180" font-family="monospace" font-size="13" fill="#39FF14" font-weight="bold">Feb 2025</text>
+
+  <!-- vertical divider -->
+  <line x1="290" y1="48" x2="290" y2="188" stroke="#39FF14" stroke-width="0.4" stroke-dasharray="3,3"/>
+
+  <!-- COLUMN 2 — language bars -->
+  <text x="310" y="68" font-family="monospace" font-size="11" fill="#FFFF33">LANGUAGE DISTRIBUTION</text>
+
+  <!-- Jupyter Notebook -->
+  <text x="310" y="92" font-family="monospace" font-size="10" fill="#888">Jupyter Notebook</text>
+  <rect x="310" y="97" width="430" height="8" rx="4" fill="#1a1a1a"/>
+  <rect x="310" y="97" width="420" height="8" rx="4" fill="url(#barGrad)" filter="url(#glow)"/>
+  <text x="746" y="106" font-family="monospace" font-size="10" fill="#39FF14">98.1%</text>
+
+  <!-- Python -->
+  <text x="310" y="126" font-family="monospace" font-size="10" fill="#888">Python</text>
+  <rect x="310" y="131" width="430" height="8" rx="4" fill="#1a1a1a"/>
+  <rect x="310" y="131" width="2" height="8" rx="4" fill="#3572A5" filter="url(#glow)"/>
+  <text x="746" y="140" font-family="monospace" font-size="10" fill="#3572A5">0.43%</text>
+
+  <!-- C -->
+  <text x="310" y="160" font-family="monospace" font-size="10" fill="#888">C</text>
+  <rect x="310" y="165" width="430" height="8" rx="4" fill="#1a1a1a"/>
+  <rect x="310" y="165" width="5" height="8" rx="4" fill="#555555"/>
+  <text x="746" y="174" font-family="monospace" font-size="10" fill="#555">1.13%</text>
+
+  <!-- status pill -->
+  <rect x="310" y="183" width="120" height="16" rx="8" fill="#0a2a00" stroke="#39FF14" stroke-width="0.8"/>
+  <circle cx="323" cy="191" r="3" fill="#39FF14" filter="url(#glow)"/>
+  <text x="332" y="195" font-family="monospace" font-size="9" fill="#39FF14">PROFILE ACTIVE</text>
+
+  <text x="446" y="195" font-family="monospace" font-size="9" fill="#444">last updated: Jun 2026</text>
+</svg>
+
+<br/>
+
+<!-- CONTRIBUTION GRAPH — full width, styled -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=abhinavmishragsv-analytics&bg_color=0D0D0D&color=39FF14&line=39FF14&point=FFFF33&area=true&area_color=39FF14&hide_border=false&border_color=39FF14&radius=8&title_color=FFFF33&custom_title=Contribution+Pulse" width="860"/>
 
 </div>
 
