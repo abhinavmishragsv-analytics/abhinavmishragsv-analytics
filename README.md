@@ -9,10 +9,13 @@
 
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
-║  > INITIALIZING PROFILE . . .                                        ║
+║  > BOOT SEQUENCE INITIATED . . .                                     ║
+║  > LOADING KERNEL: abhinav_mishra.sys                    [OK]        ║
+║  > MOUNTING /dev/ai-data-science ...                     [OK]        ║
 ║  > AI & Data Science @ Gati Shakti University  [2024 → 2028]         ║
-║  > Former: DFCCIL · Indian Railways (DRM Office, Delhi)              ║
+║  > Former: DFCCIL (Ops & Biz Dev) · Indian Railways (S&T, DRM Delhi) ║
 ║  > Achievement: Top 10% · IIT Guwahati Consulting Bootcamp           ║
+║  > STATUS: ALL SYSTEMS NOMINAL                            [ 100% ]   ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
 
@@ -20,7 +23,13 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=39FF14&center=true&vCenter=true&repeat=true&width=600&lines=Data+%3E+Assumptions.+Always.;Building+Systems+That+Think.;Freight+Corridors+%E2%86%92+ML+Pipelines.;Low+Noise.+High+Signal.+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=39FF14&center=true&vCenter=true&repeat=true&width=650&lines=Data+%3E+Assumptions.+Always.;Signals%2C+Systems%2C+and+Signal.+Literally.;Freight+Corridors+%E2%86%92+ML+Pipelines.;Decisions%2C+Not+Dashboards.;Low+Noise.+High+Signal.+%F0%9F%9A%80" alt="Typing SVG" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/SYSTEM-ONLINE-39FF14?style=for-the-badge&labelColor=000000"/>
+<img src="https://img.shields.io/badge/MODE-AUTONOMOUS-FFFF33?style=for-the-badge&labelColor=000000"/>
+<img src="https://img.shields.io/badge/UPTIME-24%2F7-39FF14?style=for-the-badge&labelColor=000000"/>
 
 </div>
 
@@ -36,9 +45,9 @@
 
 **Abhinav Mishra** — I build AI systems for real operational problems.
 
-Not toy projects. I spent my internship at **DFCCIL** building a full AI-powered decision support system deployed to production, evaluating Goods Cargo Terminals across India's dedicated freight corridors.
+Not toy projects. I spent my internship at **DFCCIL**, in the **Operations & Business Development** department, building a full AI-powered decision support system deployed to production, evaluating Goods Cargo Terminals across India's dedicated freight corridors.
 
-Before that, **Indian Railways** (DRM Office, Delhi Division) — where I saw first-hand what chaos looks like at national scale and learned why good systems matter.
+Before that, **Indian Railways** (DRM Office, Delhi Division) — in the **Signaling & Telecommunications** department, where I saw first-hand what chaos looks like at national scale and learned why good systems — and good signals — matter.
 
 Currently at **Gati Shakti Vishwavidyalaya**, sharpening the foundations: ML, analytics pipelines, scalable system design.
 
@@ -51,24 +60,41 @@ Currently at **Gati Shakti Vishwavidyalaya**, sharpening the foundations: ML, an
 class Abhinav:
     university = "GSV '28 — AI & Data Science"
     role       = "Data Science + Analytics"
-    
+
     internships = [
-        "DFCCIL — Ops & Biz Dev",
-        "Indian Railways — DRM Office, Delhi"
+        "DFCCIL — Operations & Business Dev.",
+        "Indian Railways — Signaling & "
+        "Telecommunications, DRM Office, Delhi"
     ]
-    
+
     achievement = "Top 10% · IIT-G Consulting Bootcamp"
     club        = "TechnoCrats GSV — Coordinator"
-    
+
     currently   = ["ML Systems", "System Design",
                    "Analytics Pipelines"]
-    
+
     belief      = "data > assumptions"
+
+    def decide(self, data: dict) -> "Decision":
+        assert data, "no assumptions allowed"
+        return Decision(confidence="high")
 ```
 
 </td>
 </tr>
 </table>
+
+---
+
+## `$ traceroute ./career`
+
+```
+  1.  indian-railways.drm-delhi.in       [Signaling & Telecommunications]   ✔ complete
+  2.  dfccil.corporate.noida.in          [Operations & Business Dev.]       ✔ complete   ★ 92/100
+  3.  gsv.ac.in/techno-crats             [Coordinator]                     ● active
+  4.  gsv.ac.in/ai-ds-2028               [B.Tech AI & Data Science]        ● active
+  5.  ??? .in                             [next hop]                       ○ pending
+```
 
 ---
 
@@ -80,6 +106,7 @@ class Abhinav:
 <br/>
 
 > **AI-powered feasibility engine for Goods Cargo Terminals across India's Dedicated Freight Corridors**
+> Built during my internship in the **Operations & Business Development** department. Evaluation score: **92/100**.
 
 ```
 SYSTEM ARCHITECTURE
@@ -95,6 +122,27 @@ SYSTEM ARCHITECTURE
   OUT:   PDF Reports · KPI Dashboards · Station Leaderboard
 ───────────────────────────────────────────────────────
   STATUS: ✅ Production-deployed @ Streamlit Cloud
+  SCORE:  ⭐ 92/100
+```
+
+</details>
+
+<details>
+<summary><b>🛰️ Indian Railways — Signaling & Telecommunications</b> &nbsp;<code>[FIELD OPS]</code></summary>
+
+<br/>
+
+```
+POSTING: DRM Office, Delhi Division
+DEPT:    Signaling & Telecommunications (S&T)
+─────────────────────────────────────────────
+  Exposure to national-scale signaling systems,
+  interlocking logic, and communications
+  infrastructure that keeps trains moving safely
+  across one of the world's busiest rail networks.
+─────────────────────────────────────────────
+  TAKEAWAY: Systems fail loudly when signals fail
+            quietly. Redundancy isn't optional.
 ```
 
 </details>
@@ -128,6 +176,25 @@ Time-series forecasting on real retail data.
 
 </details>
 
+<details>
+<summary><b>🏦 Credit Risk Intelligence — SaaS Platform</b> &nbsp;<code>[IN PROGRESS]</code></summary>
+
+<br/>
+
+```
+TARGET: Indian Banks & NBFCs
+──────────────────────────────────────────────────
+  Model         →  XGBoost, AUC 0.7215 (V1)
+  Explainability→  SHAP-based feature attribution
+  Advisory      →  REJECT / REDUCE_LIMIT / APPROVE
+  Backend       →  FastAPI
+  Frontend      →  Next.js                [pending]
+──────────────────────────────────────────────────
+  STATUS: 🟡 ML backend live · frontend building
+```
+
+</details>
+
 ---
 
 ## `$ cat ./stack.json`
@@ -144,12 +211,15 @@ Time-series forecasting on real retail data.
 <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
 <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
 <img src="https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/SHAP-39FF14?style=for-the-badge&logoColor=black"/>
 <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logoColor=white"/>
 <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logoColor=white"/>
 
-**Deploy / Viz**
+**Deploy / Viz / Backend**
 
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=39FF14"/>
 <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 
@@ -162,7 +232,7 @@ Time-series forecasting on real retail data.
 <div align="center">
 
 <!--  CUSTOM TERMINAL METRICS CARD  -->
-<svg width="860" height="200" viewBox="0 0 860 200" xmlns="http://www.w3.org/2000/svg" role="img">
+<svg width="860" height="220" viewBox="0 0 860 220" xmlns="http://www.w3.org/2000/svg" role="img">
   <defs>
     <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#39FF14;stop-opacity:1" />
@@ -175,7 +245,7 @@ Time-series forecasting on real retail data.
   </defs>
 
   <!-- background -->
-  <rect width="860" height="200" rx="12" fill="#0D0D0D" stroke="#39FF14" stroke-width="1.2"/>
+  <rect width="860" height="220" rx="12" fill="#0D0D0D" stroke="#39FF14" stroke-width="1.2"/>
 
   <!-- top bar -->
   <rect width="860" height="36" rx="12" fill="#111" stroke="none"/>
@@ -206,8 +276,11 @@ Time-series forecasting on real retail data.
   <text x="40" y="180" font-family="monospace" font-size="11" fill="#888">active since</text>
   <text x="200" y="180" font-family="monospace" font-size="13" fill="#39FF14" font-weight="bold">Feb 2025</text>
 
+  <text x="40" y="202" font-family="monospace" font-size="11" fill="#888">internships completed</text>
+  <text x="200" y="202" font-family="monospace" font-size="13" fill="#39FF14" font-weight="bold" filter="url(#glow)">2 / 2 ✔</text>
+
   <!-- vertical divider -->
-  <line x1="290" y1="48" x2="290" y2="188" stroke="#39FF14" stroke-width="0.4" stroke-dasharray="3,3"/>
+  <line x1="290" y1="48" x2="290" y2="208" stroke="#39FF14" stroke-width="0.4" stroke-dasharray="3,3"/>
 
   <!-- COLUMN 2 — language bars -->
   <text x="310" y="68" font-family="monospace" font-size="11" fill="#FFFF33">LANGUAGE DISTRIBUTION</text>
@@ -235,13 +308,29 @@ Time-series forecasting on real retail data.
   <circle cx="323" cy="191" r="3" fill="#39FF14" filter="url(#glow)"/>
   <text x="332" y="195" font-family="monospace" font-size="9" fill="#39FF14">PROFILE ACTIVE</text>
 
-  <text x="446" y="195" font-family="monospace" font-size="9" fill="#444">last updated: Jun 2026</text>
+  <text x="446" y="195" font-family="monospace" font-size="9" fill="#444">last updated: Aug 2026</text>
 </svg>
 
 <br/>
 
 <!-- CONTRIBUTION GRAPH — full width, styled -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=abhinavmishragsv-analytics&bg_color=0D0D0D&color=39FF14&line=39FF14&point=FFFF33&area=true&area_color=39FF14&hide_border=false&border_color=39FF14&radius=8&title_color=FFFF33&custom_title=Contribution+Pulse" width="860"/>
+
+<br/><br/>
+
+<!-- GitHub streak / stats cards -->
+<img src="https://github-readme-stats.vercel.app/api?username=abhinavmishragsv-analytics&show_icons=true&theme=dark&bg_color=0D0D0D&title_color=FFFF33&icon_color=39FF14&text_color=39FF14&border_color=39FF14&hide_border=false" width="420"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=abhinavmishragsv-analytics&background=0D0D0D&stroke=39FF14&ring=39FF14&fire=FFFF33&currStreakLabel=39FF14&sideLabels=39FF14&dates=888888&border=39FF14" width="420"/>
+
+</div>
+
+---
+
+## `$ snake --run`
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="860"/>
 
 </div>
 
