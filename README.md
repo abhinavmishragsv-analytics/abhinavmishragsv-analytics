@@ -1,356 +1,501 @@
 <div align="center">
 
-<!-- MATRIX RAIN BANNER -->
 <img src="https://capsule-render.vercel.app/api?type=venom&height=220&text=ABHINAV%20MISHRA&fontSize=65&color=0:000000,100:39FF14&stroke=39FF14&strokeWidth=2&fontColor=39FF14&animation=twinkling&fontAlignY=65" width="100%"/>
 
-</div>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=39FF14&center=true&vCenter=true&repeat=true&width=750&lines=AI+%2F+DATA+SCIENCE+%2F+DECISION+SYSTEMS;Data+%3E+Assumptions.;Decisions%2C+Not+Dashboards.;Freight+%E2%86%92+Data+%E2%86%92+ML+%E2%86%92+Decisions.;Low+Noise.+High+Signal." alt="Typing SVG"/>
 
-<div align="center">
+<br>
 
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║  > BOOT SEQUENCE INITIATED . . .                                     ║
-║  > LOADING KERNEL: abhinav_mishra.sys                    [OK]        ║
-║  > MOUNTING /dev/ai-data-science ...                     [OK]        ║
-║  > AI & Data Science @ Gati Shakti University  [2024 → 2028]         ║
-║  > Former: DFCCIL (Ops & Biz Dev) · Indian Railways (S&T, DRM Delhi) ║
-║  > Achievement: Top 10% · IIT Guwahati Consulting Bootcamp           ║
-║  > STATUS: ALL SYSTEMS NOMINAL                            [ 100% ]   ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+<img src="https://img.shields.io/badge/SYSTEM-ONLINE-39FF14?style=flat-square&labelColor=050505"/>
+&nbsp;
+<img src="https://img.shields.io/badge/FOCUS-AI%20%2F%20DATA-39FF14?style=flat-square&labelColor=050505"/>
+&nbsp;
+<img src="https://img.shields.io/badge/BUILD-DECISION%20SYSTEMS-39FF14?style=flat-square&labelColor=050505"/>
 
 </div>
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=39FF14&center=true&vCenter=true&repeat=true&width=650&lines=Data+%3E+Assumptions.+Always.;Signals%2C+Systems%2C+and+Signal.+Literally.;Freight+Corridors+%E2%86%92+ML+Pipelines.;Decisions%2C+Not+Dashboards.;Low+Noise.+High+Signal.+%F0%9F%9A%80" alt="Typing SVG" />
-
-<br/>
-
-<img src="https://img.shields.io/badge/SYSTEM-ONLINE-39FF14?style=for-the-badge&labelColor=000000"/>
-<img src="https://img.shields.io/badge/MODE-AUTONOMOUS-FFFF33?style=for-the-badge&labelColor=000000"/>
-<img src="https://img.shields.io/badge/UPTIME-24%2F7-39FF14?style=for-the-badge&labelColor=000000"/>
-
-</div>
-
-<br/>
 
 ---
 
 ## `$ whoami`
 
-<table>
-<tr>
-<td width="55%" valign="top">
+```text
+┌──────────────────────────────────────────────────────────────────────┐
+│                                                                      │
+│   ABHINAV MISHRA                                                     │
+│                                                                      │
+│   B.Tech · Artificial Intelligence & Data Science                    │
+│   Gati Shakti Vishwavidyalaya · 2024 → 2028                         │
+│                                                                      │
+│   Building data-driven systems for real operational problems.        │
+│                                                                      │
+│   PREVIOUSLY                                                         │
+│   ├── DFCCIL · Operations & Business Development                    │
+│   └── Indian Railways · Signaling & Telecommunications              │
+│                                                                      │
+│   CURRENT                                                            │
+│   ├── Machine Learning                                               │
+│   ├── Data Science & Analytics                                       │
+│   ├── Decision Systems                                               │
+│   └── Backend / System Design                                        │
+│                                                                      │
+│   ACHIEVEMENT                                                        │
+│   └── Top 10% · IIT Guwahati Consulting Bootcamp                    │
+│                                                                      │
+└──────────────────────────────────────────────────────────────────────┘
+```
 
-**Abhinav Mishra** — I build AI systems for real operational problems.
+<div align="center">
 
-Not toy projects. I spent my internship at **DFCCIL**, in the **Operations & Business Development** department, building a full AI-powered decision support system deployed to production, evaluating Goods Cargo Terminals across India's dedicated freight corridors.
+> ### `"The goal isn't a model. The goal is a decision."`
 
-Before that, **Indian Railways** (DRM Office, Delhi Division) — in the **Signaling & Telecommunications** department, where I saw first-hand what chaos looks like at national scale and learned why good systems — and good signals — matter.
+</div>
 
-Currently at **Gati Shakti Vishwavidyalaya**, sharpening the foundations: ML, analytics pipelines, scalable system design.
+---
 
-> *"The goal isn't a model. The goal is a decision."*
-
-</td>
-<td width="45%" valign="top">
+## `$ cat ./profile.py`
 
 ```python
-class Abhinav:
-    university = "GSV '28 — AI & Data Science"
-    role       = "Data Science + Analytics"
+class AbhinavMishra:
 
-    internships = [
-        "DFCCIL — Operations & Business Dev.",
-        "Indian Railways — Signaling & "
-        "Telecommunications, DRM Office, Delhi"
+    university = "Gati Shakti Vishwavidyalaya"
+    degree = "B.Tech — AI & Data Science"
+    graduation = 2028
+
+    experience = [
+        "DFCCIL — Operations & Business Development",
+        "Indian Railways — Signaling & Telecommunications"
     ]
 
-    achievement = "Top 10% · IIT-G Consulting Bootcamp"
-    club        = "TechnoCrats GSV — Coordinator"
+    interests = [
+        "Machine Learning",
+        "Data Science",
+        "Decision Systems",
+        "Analytics Pipelines",
+        "System Design"
+    ]
 
-    currently   = ["ML Systems", "System Design",
-                   "Analytics Pipelines"]
+    philosophy = {
+        "data": "assumptions",
+        "decisions": "dashboards",
+        "systems": "scripts"
+    }
 
-    belief      = "data > assumptions"
+    def build(self, problem):
+        data = problem.collect_data()
+        model = self.learn(data)
+        insight = model.explain()
 
-    def decide(self, data: dict) -> "Decision":
-        assert data, "no assumptions allowed"
-        return Decision(confidence="high")
-```
-
-</td>
-</tr>
-</table>
-
----
-
-## `$ traceroute ./career`
-
-```
-  1.  indian-railways.drm-delhi.in       [Signaling & Telecommunications]   ✔ complete
-  2.  dfccil.corporate.noida.in          [Operations & Business Dev.]       ✔ complete   ★ 92/100
-  3.  gsv.ac.in/techno-crats             [Coordinator]                     ● active
-  4.  gsv.ac.in/ai-ds-2028               [B.Tech AI & Data Science]        ● active
-  5.  ??? .in                             [next hop]                       ○ pending
+        return problem.make_decision(insight)
 ```
 
 ---
 
-## `$ ls ./projects`
+# `$ ls ./experience`
+
+### `01 / DFCCIL`
+
+**Operations & Business Development**
+
+```text
+PROJECT
+└── Goods Cargo Terminal Decision Support System
+
+MISSION
+├── Evaluate potential GCT locations
+├── Analyse industrial ecosystems
+├── Rank freight terminal opportunities
+├── Support Schedule-I / Schedule-II evaluation
+└── Convert analysis → operational decisions
+
+SYSTEM
+├── Regulatory Feasibility Engine
+├── Site Recommendation Engine
+├── Opportunity Index
+├── Industrial Ecosystem Scoring
+├── Freight Demand Analytics
+├── Station Ranking
+└── Automated Reporting
+
+STACK
+├── Python
+├── Streamlit
+├── Power BI
+└── Excel
+
+RESULT
+├── Production-deployed web application
+└── Internship evaluation → 92 / 100
+```
+
+`STATUS → [████████████████████] DEPLOYED`
+
+---
+
+### `02 / INDIAN RAILWAYS`
+
+**Signaling & Telecommunications · DRM Office, Delhi Division**
+
+```text
+DOMAIN
+├── Railway Signaling
+├── Telecommunications
+├── Interlocking Systems
+├── Operational Infrastructure
+└── Large-Scale Railway Systems
+
+LESSON
+└── Reliability isn't a feature when systems operate at scale.
+    It's the architecture.
+```
+
+`STATUS → [████████████████████] COMPLETE`
+
+---
+
+### `03 / TECHNOCRATS GSV`
+
+**Coordinator · Technical Club**
+
+```text
+ROLE
+├── Technical initiatives
+├── Student development
+├── Workshops
+├── Project culture
+└── Team coordination
+```
+
+`STATUS → [██████████████░░░░░░] ACTIVE`
+
+---
+
+# `$ ls ./projects`
 
 <details open>
-<summary><b>🚉 DFCCIL — GCT Decision Support System</b> &nbsp;<code>[DEPLOYED]</code></summary>
+<summary><b>🚉 01 — DFCCIL · GCT Decision Support System</b> &nbsp; <code>DEPLOYED</code></summary>
 
-<br/>
+<br>
 
-> **AI-powered feasibility engine for Goods Cargo Terminals across India's Dedicated Freight Corridors**
-> Built during my internship in the **Operations & Business Development** department. Evaluation score: **92/100**.
+> AI-powered decision support system for evaluating Goods Cargo Terminal opportunities across India's Dedicated Freight Corridors.
 
-```
-SYSTEM ARCHITECTURE
-───────────────────────────────────────────────────────
-  Schedule-I Engine    →  Regulatory Feasibility Check
-  Schedule-II Engine   →  Site Recommendation & Ranking
-  Opportunity Index    →  Composite Scoring (WDFC/EDFC)
-  Industrial Ecosystem →  11-industry weighted scoring
-                          within 30–50km catchment
-───────────────────────────────────────────────────────
-  STACK: Python · Streamlit Cloud · Excel · Power BI
-  AUTH:  Hybrid model (Allowlist + Domain-based)
-  OUT:   PDF Reports · KPI Dashboards · Station Leaderboard
-───────────────────────────────────────────────────────
-  STATUS: ✅ Production-deployed @ Streamlit Cloud
-  SCORE:  ⭐ 92/100
-```
-
-</details>
-
-<details>
-<summary><b>🛰️ Indian Railways — Signaling & Telecommunications</b> &nbsp;<code>[FIELD OPS]</code></summary>
-
-<br/>
-
-```
-POSTING: DRM Office, Delhi Division
-DEPT:    Signaling & Telecommunications (S&T)
-─────────────────────────────────────────────
-  Exposure to national-scale signaling systems,
-  interlocking logic, and communications
-  infrastructure that keeps trains moving safely
-  across one of the world's busiest rail networks.
-─────────────────────────────────────────────
-  TAKEAWAY: Systems fail loudly when signals fail
-            quietly. Redundancy isn't optional.
+```text
+                    ┌─────────────────────┐
+                    │    LOCATION DATA    │
+                    └──────────┬──────────┘
+                               │
+              ┌────────────────▼────────────────┐
+              │     INDUSTRIAL ECOSYSTEM       │
+              │       SCORING ENGINE           │
+              └────────────────┬────────────────┘
+                               │
+             ┌─────────────────▼─────────────────┐
+             │       FEASIBILITY ENGINE         │
+             │                                   │
+             │   Schedule-I      Schedule-II     │
+             └─────────────────┬─────────────────┘
+                               │
+                 ┌─────────────▼─────────────┐
+                 │     OPPORTUNITY INDEX     │
+                 └─────────────┬─────────────┘
+                               │
+                 ┌─────────────▼─────────────┐
+                 │   RECOMMENDATION ENGINE   │
+                 └─────────────┬─────────────┘
+                               │
+           ┌───────────────────┼───────────────────┐
+           ▼                   ▼                   ▼
+      SITE RANKING        KPI DASHBOARD       PDF REPORT
 ```
 
-</details>
+**Stack**
 
-<details>
-<summary><b>✈️ Airline Loyalty Analytics — Churn & Segmentation</b> &nbsp;<code>[ML]</code></summary>
+`Python` · `Streamlit` · `Power BI` · `Excel`
 
-<br/>
+**System Output**
 
-```
-PIPELINE
-──────────────────────────────────────────────────
-  Churn Prediction  →  XGBoost + SMOTE + AUC-ROC
-  Segmentation      →  K-Means · RFM · CLV Scoring
-  Output            →  Streamlit Dashboard
-                       + Full Technical Report
-──────────────────────────────────────────────────
-```
+`Feasibility` · `Opportunity Score` · `Site Ranking` · `Recommendation`
 
-</details>
-
-<details>
-<summary><b>🛒 Retail Sales Forecasting</b> &nbsp;<code>[TIME-SERIES]</code></summary>
-
-<br/>
-
-```
-Time-series forecasting on real retail data.
-→ github.com/abhinavmishragsv-analytics/Retail-Sales-Forecasting-Project
-```
-
-</details>
-
-<details>
-<summary><b>🏦 Credit Risk Intelligence — SaaS Platform</b> &nbsp;<code>[IN PROGRESS]</code></summary>
-
-<br/>
-
-```
-TARGET: Indian Banks & NBFCs
-──────────────────────────────────────────────────
-  Model         →  XGBoost, AUC 0.7215 (V1)
-  Explainability→  SHAP-based feature attribution
-  Advisory      →  REJECT / REDUCE_LIMIT / APPROVE
-  Backend       →  FastAPI
-  Frontend      →  Next.js                [pending]
-──────────────────────────────────────────────────
-  STATUS: 🟡 ML backend live · frontend building
-```
+**Evaluation:** `92 / 100`
 
 </details>
 
 ---
 
-## `$ cat ./stack.json`
+<details>
+<summary><b>✈️ 02 — Airline Loyalty Intelligence</b> &nbsp; <code>ML</code></summary>
+
+<br>
+
+```text
+CUSTOMER DATA
+     │
+     ├───────────────┐
+     │               │
+     ▼               ▼
+CHURN MODEL      SEGMENTATION
+     │               │
+  XGBoost          K-Means
+  SMOTE            RFM
+  AUC-ROC          CLV
+     │               │
+     └───────┬───────┘
+             ▼
+      DECISION LAYER
+             │
+             ▼
+    STREAMLIT DASHBOARD
+```
+
+**Objective:** Identify churn risk and meaningful customer segments from airline loyalty data.
+
+**Stack:** `Python` · `XGBoost` · `Scikit-learn` · `Pandas` · `Streamlit`
+
+</details>
+
+---
+
+<details>
+<summary><b>🏦 03 — Credit Risk Intelligence</b> &nbsp; <code>IN DEVELOPMENT</code></summary>
+
+<br>
+
+```text
+BORROWER DATA
+      │
+      ▼
+┌───────────────┐
+│ XGBOOST MODEL │
+└───────┬───────┘
+        │
+        ▼
+┌───────────────┐
+│     SHAP      │
+│ EXPLAINABILITY│
+└───────┬───────┘
+        │
+        ▼
+┌───────────────────────┐
+│    DECISION ENGINE    │
+├───────────────────────┤
+│ APPROVE               │
+│ REDUCE_LIMIT          │
+│ REJECT                │
+└───────────┬───────────┘
+            │
+            ▼
+        FASTAPI
+```
+
+**Target:** Decision-support platform for Indian Banks & NBFCs.
+
+**V1 Model:** `XGBoost`
+
+**V1 AUC:** `0.7215`
+
+**Stack:** `Python` · `XGBoost` · `SHAP` · `FastAPI` · `Next.js`
+
+`STATUS → BACKEND ACTIVE / FRONTEND BUILDING`
+
+</details>
+
+---
+
+<details>
+<summary><b>🛒 04 — Retail Sales Forecasting</b> &nbsp; <code>TIME SERIES</code></summary>
+
+<br>
+
+```text
+HISTORICAL SALES
+       │
+       ▼
+DATA PREPROCESSING
+       │
+       ▼
+TIME-SERIES ANALYSIS
+       │
+       ▼
+FORECASTING MODEL
+       │
+       ▼
+FUTURE SALES ESTIMATE
+```
+
+Time-series forecasting pipeline built using real retail sales data.
+
+**Repository**
+
+`abhinavmishragsv-analytics/Retail-Sales-Forecasting-Project`
+
+</details>
+
+---
+
+# `$ cat ./stack.json`
 
 <div align="center">
 
-**Core**
+### `// CORE`
 
-<img src="https://skillicons.dev/icons?i=python,cpp,git,github,linux,vscode&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,cpp,git,github,linux,vscode&theme=dark"/>
 
-**ML / Analytics**
+<br><br>
 
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-<img src="https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/SHAP-39FF14?style=for-the-badge&logoColor=black"/>
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logoColor=white"/>
+### `// MACHINE LEARNING & DATA`
 
-**Deploy / Viz / Backend**
+<img src="https://img.shields.io/badge/Pandas-39FF14?style=flat-square&logo=pandas&logoColor=black&labelColor=050505"/>
+<img src="https://img.shields.io/badge/NumPy-39FF14?style=flat-square&logo=numpy&logoColor=black&labelColor=050505"/>
+<img src="https://img.shields.io/badge/Scikit--Learn-39FF14?style=flat-square&logo=scikitlearn&logoColor=black&labelColor=050505"/>
+<img src="https://img.shields.io/badge/XGBoost-39FF14?style=flat-square&logoColor=black&labelColor=050505"/>
+<img src="https://img.shields.io/badge/SHAP-39FF14?style=flat-square&logoColor=black&labelColor=050505"/>
+<img src="https://img.shields.io/badge/Matplotlib-39FF14?style=flat-square&logoColor=black&labelColor=050505"/>
 
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+<br><br>
+
+### `// BACKEND & DEPLOYMENT`
+
+<img src="https://img.shields.io/badge/FastAPI-39FF14?style=flat-square&logo=fastapi&logoColor=black&labelColor=050505"/>
+<img src="https://img.shields.io/badge/Streamlit-39FF14?style=flat-square&logo=streamlit&logoColor=black&labelColor=050505"/>
+<img src="https://img.shields.io/badge/Next.js-39FF14?style=flat-square&logo=next.js&logoColor=black&labelColor=050505"/>
+
+<br><br>
+
+### `// ANALYTICS & DATABASE`
+
+<img src="https://img.shields.io/badge/Power%20BI-39FF14?style=flat-square&logo=powerbi&logoColor=black&labelColor=050505"/>
+<img src="https://img.shields.io/badge/MySQL-39FF14?style=flat-square&logo=mysql&logoColor=black&labelColor=050505"/>
 
 </div>
 
 ---
 
-## `$ ./stats --live`
+# `$ ./github --live`
 
 <div align="center">
 
-<!--  CUSTOM TERMINAL METRICS CARD  -->
-<svg width="860" height="220" viewBox="0 0 860 220" xmlns="http://www.w3.org/2000/svg" role="img">
-  <defs>
-    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#39FF14;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#FFFF33;stop-opacity:1" />
-    </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
-      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
+### `SYSTEM METRICS`
 
-  <!-- background -->
-  <rect width="860" height="220" rx="12" fill="#0D0D0D" stroke="#39FF14" stroke-width="1.2"/>
+<img
+src="https://github-readme-stats.vercel.app/api?username=abhinavmishragsv-analytics&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=050505&title_color=39FF14&icon_color=39FF14&text_color=AAAAAA&ring_color=39FF14&custom_title=ABHINAV%20%2F%2F%20GITHUB%20METRICS"
+width="490"
+/>
 
-  <!-- top bar -->
-  <rect width="860" height="36" rx="12" fill="#111" stroke="none"/>
-  <rect y="24" width="860" height="12" fill="#111" stroke="none"/>
-  <circle cx="22" cy="18" r="6" fill="#FF5F57"/>
-  <circle cx="42" cy="18" r="6" fill="#FFBD2E"/>
-  <circle cx="62" cy="18" r="6" fill="#28C840"/>
-  <text x="430" y="23" font-family="monospace" font-size="12" fill="#39FF14" text-anchor="middle" filter="url(#glow)">ABHINAV@GSV ~ ./stats --live</text>
+<br>
 
-  <!-- divider -->
-  <line x1="20" y1="42" x2="840" y2="42" stroke="#39FF14" stroke-width="0.4" stroke-dasharray="4,4"/>
-
-  <!-- COLUMN 1 — commit metrics -->
-  <text x="40" y="68" font-family="monospace" font-size="11" fill="#FFFF33">ACTIVITY</text>
-
-  <text x="40" y="92" font-family="monospace" font-size="11" fill="#888">total commits</text>
-  <text x="200" y="92" font-family="monospace" font-size="13" fill="#39FF14" font-weight="bold" filter="url(#glow)">53</text>
-
-  <text x="40" y="114" font-family="monospace" font-size="11" fill="#888">total contributions</text>
-  <text x="200" y="114" font-family="monospace" font-size="13" fill="#39FF14" font-weight="bold" filter="url(#glow)">118</text>
-
-  <text x="40" y="136" font-family="monospace" font-size="11" fill="#888">pull requests</text>
-  <text x="200" y="136" font-family="monospace" font-size="13" fill="#FFFF33" font-weight="bold">2</text>
-
-  <text x="40" y="158" font-family="monospace" font-size="11" fill="#888">longest streak</text>
-  <text x="200" y="158" font-family="monospace" font-size="13" fill="#FFFF33" font-weight="bold">3 days</text>
-
-  <text x="40" y="180" font-family="monospace" font-size="11" fill="#888">active since</text>
-  <text x="200" y="180" font-family="monospace" font-size="13" fill="#39FF14" font-weight="bold">Feb 2025</text>
-
-  <text x="40" y="202" font-family="monospace" font-size="11" fill="#888">internships completed</text>
-  <text x="200" y="202" font-family="monospace" font-size="13" fill="#39FF14" font-weight="bold" filter="url(#glow)">2 / 2 ✔</text>
-
-  <!-- vertical divider -->
-  <line x1="290" y1="48" x2="290" y2="208" stroke="#39FF14" stroke-width="0.4" stroke-dasharray="3,3"/>
-
-  <!-- COLUMN 2 — language bars -->
-  <text x="310" y="68" font-family="monospace" font-size="11" fill="#FFFF33">LANGUAGE DISTRIBUTION</text>
-
-  <!-- Jupyter Notebook -->
-  <text x="310" y="92" font-family="monospace" font-size="10" fill="#888">Jupyter Notebook</text>
-  <rect x="310" y="97" width="430" height="8" rx="4" fill="#1a1a1a"/>
-  <rect x="310" y="97" width="420" height="8" rx="4" fill="url(#barGrad)" filter="url(#glow)"/>
-  <text x="746" y="106" font-family="monospace" font-size="10" fill="#39FF14">98.1%</text>
-
-  <!-- Python -->
-  <text x="310" y="126" font-family="monospace" font-size="10" fill="#888">Python</text>
-  <rect x="310" y="131" width="430" height="8" rx="4" fill="#1a1a1a"/>
-  <rect x="310" y="131" width="2" height="8" rx="4" fill="#3572A5" filter="url(#glow)"/>
-  <text x="746" y="140" font-family="monospace" font-size="10" fill="#3572A5">0.43%</text>
-
-  <!-- C -->
-  <text x="310" y="160" font-family="monospace" font-size="10" fill="#888">C</text>
-  <rect x="310" y="165" width="430" height="8" rx="4" fill="#1a1a1a"/>
-  <rect x="310" y="165" width="5" height="8" rx="4" fill="#555555"/>
-  <text x="746" y="174" font-family="monospace" font-size="10" fill="#555">1.13%</text>
-
-  <!-- status pill -->
-  <rect x="310" y="183" width="120" height="16" rx="8" fill="#0a2a00" stroke="#39FF14" stroke-width="0.8"/>
-  <circle cx="323" cy="191" r="3" fill="#39FF14" filter="url(#glow)"/>
-  <text x="332" y="195" font-family="monospace" font-size="9" fill="#39FF14">PROFILE ACTIVE</text>
-
-  <text x="446" y="195" font-family="monospace" font-size="9" fill="#444">last updated: Aug 2026</text>
-</svg>
-
-<br/>
-
-<!-- CONTRIBUTION GRAPH — full width, styled -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=abhinavmishragsv-analytics&bg_color=0D0D0D&color=39FF14&line=39FF14&point=FFFF33&area=true&area_color=39FF14&hide_border=false&border_color=39FF14&radius=8&title_color=FFFF33&custom_title=Contribution+Pulse" width="860"/>
-
-<br/><br/>
-
-<!-- GitHub streak / stats cards -->
-<img src="https://github-readme-stats.vercel.app/api?username=abhinavmishragsv-analytics&show_icons=true&theme=dark&bg_color=0D0D0D&title_color=FFFF33&icon_color=39FF14&text_color=39FF14&border_color=39FF14&hide_border=false" width="420"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=abhinavmishragsv-analytics&background=0D0D0D&stroke=39FF14&ring=39FF14&fire=FFFF33&currStreakLabel=39FF14&sideLabels=39FF14&dates=888888&border=39FF14" width="420"/>
+<img
+src="https://streak-stats.demolab.com/?user=abhinavmishragsv-analytics&hide_border=true&background=050505&stroke=39FF14&ring=39FF14&fire=39FF14&currStreakNum=39FF14&sideNums=39FF14&currStreakLabel=AAAAAA&sideLabels=AAAAAA&dates=666666"
+width="490"
+/>
 
 </div>
 
 ---
 
-## `$ snake --run`
+# `$ contribution-pulse --live`
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="860"/>
+<img
+src="https://github-readme-activity-graph.vercel.app/graph?username=abhinavmishragsv-analytics&bg_color=050505&color=39FF14&line=39FF14&point=FFFFFF&area=true&area_color=39FF14&hide_border=true&radius=8&custom_title=CONTRIBUTION%20PULSE"
+width="95%"
+/>
 
 </div>
 
 ---
 
-## `$ ping ./connect`
+# `$ git log --graph`
+
+```text
+2024
+ │
+ ├────● GATI SHAKTI VISHWAVIDYALAYA
+ │     B.Tech · AI & Data Science
+ │
+ │
+ ├────────● INDIAN RAILWAYS
+ │         Signaling & Telecommunications
+ │         DRM Office · Delhi Division
+ │
+ │
+ ├────────────● DFCCIL
+ │             Operations & Business Development
+ │             GCT Decision Support System
+ │
+ │
+ ├────────────────● TECHNOCRATS GSV
+ │                 Coordinator
+ │
+ │
+ │
+ ▼
+2028 ────────────────────────────────────────────────►
+
+                   NEXT HOP
+                      ?
+```
+
+---
+
+# `$ ps aux | grep currently`
+
+```text
+PID      PROCESS                         STATUS
+────────────────────────────────────────────────────
+001      machine-learning               ██████████ ACTIVE
+002      data-science                   ██████████ ACTIVE
+003      system-design                  ███████░░░ LEARNING
+004      analytics-pipelines            ████████░░ BUILDING
+005      credit-risk-platform           ██████░░░░ BUILDING
+006      decision-intelligence          █████████░ ACTIVE
+```
+
+---
+
+# `$ ./principles`
+
+<div align="center">
+
+```text
+╭──────────────────────────────────────────────────────╮
+│                                                      │
+│                    LOW NOISE.                        │
+│                    HIGH SIGNAL.                      │
+│                                                      │
+│                 DATA > ASSUMPTIONS                   │
+│                DECISIONS > DASHBOARDS                │
+│                  SYSTEMS > SCRIPTS                   │
+│                                                      │
+╰──────────────────────────────────────────────────────╯
+```
+
+</div>
+
+---
+
+# `$ ping ./connect`
 
 <div align="center">
 
 <a href="https://www.linkedin.com/in/abhinavamishra/">
-  <img src="https://img.shields.io/badge/LinkedIn-Abhinav%20Mishra-39FF14?style=for-the-badge&logo=linkedin&logoColor=black&labelColor=0D0D0D"/>
+<img src="https://img.shields.io/badge/LinkedIn-Abhinav%20Mishra-39FF14?style=for-the-badge&logo=linkedin&logoColor=39FF14&labelColor=050505"/>
 </a>
+
 &nbsp;
+
 <a href="https://x.com/2005_mishra">
-  <img src="https://img.shields.io/badge/X%20%2F%20Twitter-@2005__mishra-FFFF33?style=for-the-badge&logo=x&logoColor=black&labelColor=0D0D0D"/>
+<img src="https://img.shields.io/badge/X-@2005__mishra-39FF14?style=for-the-badge&logo=x&logoColor=39FF14&labelColor=050505"/>
 </a>
 
-<br/><br/>
+&nbsp;
 
-<img src="https://komarev.com/ghpvc/?username=abhinavmishragsv-analytics&label=PROFILE+READS&color=39FF14&style=flat-square&labelColor=0D0D0D"/>
+<a href="https://github.com/abhinavmishragsv-analytics">
+<img src="https://img.shields.io/badge/GitHub-abhinavmishragsv--analytics-39FF14?style=for-the-badge&logo=github&logoColor=39FF14&labelColor=050505"/>
+</a>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=abhinavmishragsv-analytics&label=PROFILE%20SIGNALS&color=39FF14&style=flat-square&labelColor=050505"/>
 
 </div>
 
@@ -358,6 +503,17 @@ TARGET: Indian Banks & NBFCs
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:39FF14&height=100&section=footer&text=Data%20talks.%20I%20build%20the%20systems%20that%20listen.&fontSize=16&fontColor=39FF14&fontAlignY=65" width="100%"/>
+```text
+> SYSTEM STATUS
+
+  identity .............. ABHINAV MISHRA
+  domain ................ AI / DATA SCIENCE
+  objective ............. BUILD SYSTEMS THAT MATTER
+  signal ................ █████████████████████ 100%
+
+  [ SYSTEM ONLINE ]
+```
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,100:39FF14&height=110&section=footer&text=Build%20systems%20that%20matter.&fontSize=18&fontColor=39FF14&fontAlignY=65" width="100%"/>
 
 </div>
